@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+
+</head>
+<body>
+    <form action="">
+    <h1>Payment Form</h1>
+    <hr>
+    <h2>Contact Information</h2>
+    
+    <h6>*Signifies Required Fields</h6>
+
+    <p>Name *: <input type="text"placeholder="input Name="name" required></p>
+    <p>Gender * :
+        <input type="radio" name="gender"id="male"required>male
+        <input type="radio" name="gender"id="famele"require> famele    
+
+    </p>
+    
+        <p> Address :<textarea
+            name="address"col="100" rows="8"></textarea>
+        </p>
+        <p>Email* : <input type="email" name="Email"id="required">
+        </p>
+        <p>pincode:* <input required type="number"name="pincode"id="pin">
+
+        </p>
+        <h2>Payment Information</h2>
+        <p>Card type:*
+            <select name="card_type" id="card_type"required>
+                <option value="">select a card type</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>
+                <option value="diners">diners club</option>
+            </select>
+        </p>
+            <p> Card number: <input type="number"required name="card_number"></p>
+
+                <p>Expiry Date :* <input required type="month"name="Expiry_date">
+                </p>
+                <p>Cvv:* <input type="password"name="cvv">
+                
+            </p>
+               <input type="submit"name="submit"id="submit" value="submit">
+               <input type="reset" name="reset"id="reset">
+
+    
+</form>
+</body>
+</html>
