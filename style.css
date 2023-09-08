@@ -1,0 +1,28 @@
+body{
+    background-color:rgb #8c8e8f63;
+}
+
+
+
+nav a:link, nav a:visited {
+    background-color: #4D7298;
+    border: 2px solid #16a6d6;
+    border-radius: 0.5em;
+    color: #20bec9;
+    padding: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ul li{
+    background: white;
+    height: auto; 
+    display: inline-block;
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center; 
+    margin: 5rem;
+   border-radius: 1px solid black;
+   flex-direction: column;
+}
